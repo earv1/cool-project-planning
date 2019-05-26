@@ -1,0 +1,73 @@
+* DIY Laptop
+
+** Design goals
+ 1. Easy to build
+ 2. Customizable
+ 3. Not overly expensive
+ 4. Uses a pi for the first iteration, because I own one and it's super supported.
+
+    
+** Ideas
+
+*** Case Ideas
+   1. Dowel Sticks
+      | Pros             | Cons                                |
+      | Cheap            | Assembly still required             |
+      | Easy to assemble | Easy to not make structurally sound |
+      | Modular          | Still need some sort of Enclosure   |
+   2. Use existing laptop
+      | Pros                    | Cons                                                        |
+      | Nice Laptop form factor | Difficult to customize                                      |
+      | Very little assembly    | Have to use existing spaces for ports                       |
+      |                         | Battery might need to be replaced, and takes up weird space |
+      |                         | Not much internal space                                     |
+
+   3. Briefcase, secondhand
+      | Pros                                          | Cons                                               |
+      | Lots of space                                 | Cooling, and Material                              |
+      | Rigid(hopefully)                              | Base might be too big for comfortable keyboard use |
+      | Looks freaken cool                            | Have to rip out a lot of material                  |
+      | Extremely little assembly for first prototype |                                                    |
+      
+*** Battery Ideas
+   1. 18650 battery array
+      | Pros                     | Cons                                     |
+      | Customizable             | Diffcult to charge                       |
+      | Potentially more wattage | Dangerous(Looking at you samsung)        |
+      |                          | Expensive                                |
+      |                          | Difficult to wire together               |
+      |                          | need special circuitry for even charging |
+   
+   2. Power Bank
+      | Pros                                     | Cons                          |
+      | Comes with everything you need to use it | Might not have enough wattage |
+      | Relatively cheap                         | Hard to add more wattage      |
+
+
+*** Screens 
+   The screen, has to be a laptop screen. For power
+   
+*** Screen Controller
+   Needs more research, I thought there was a generic one, but I can't find it. 
+   If there isn't, I should find a screen first.
+   
+
+*** Computer Board
+    Already decided on raspberry pi, because I own one. But these are things I can use in future.
+    1. Nuc Board. e.g. https://www.takealot.com/asus-am1i-a-all-in-one-am1-motherboard/PLID42171411?gclid=CjwKCAjw8qjnBRA-EiwAaNvhwMKKxJvBtSad3gAfeRKheVEtzgy5xkzkw3WpvV738mfIXOaVyU-wCxoCnbsQAvD_BwE&gclsrc=aw.ds
+    2. One of these https://all3dp.com/1/single-board-computer-raspberry-pi-alternative/
+    3. Use something like nvidia jetson, it has a nice graphics card but it caters mostly to machine learning.
+
+** Useful Research
+ 1. Frank Adams https://www.youtube.com/channel/UCe4wHZ5WmNKMgqWiIblZ14g  
+   * Built a laptop SBC computer
+ 2. Pitop, raspberry pi computer. But they miss the point, it's not modular enough and only supports pis
+ 3. DIY laptop kit for kids https://www.youtube.com/watch?v=3-kM5lQ0BIE&t=474s. 
+   * Uses a raspberry pi and has a super simple setup. 
+   * Simplicity is what I want to aim for, and this has it in abundance.
+
+** Glossary
+   | Term                    | Description                                                                             |
+   | SBC                     | Single Board Computer                                                                   |
+   | Laptop Controller Board | Electronics that allow you to connect to a laptop screen with traditional display ports |
+   | 18650 battery           | Generic popular, lithium aa battery. Used a lot in laptops                              |
